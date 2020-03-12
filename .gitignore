@@ -1,0 +1,4 @@
+assets/downloads/*
+assets/csv/*
+src/__pycache__
+src/API_KEY.py
