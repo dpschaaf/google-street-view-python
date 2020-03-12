@@ -5,7 +5,7 @@ from constants import APPEND_HEADERS, ADDRESS_INF_HEADERS
 def check_blank_row(row, cnt, status_pos, writer, address_pos):
     # checking blank row
     is_blank_row = False
-    for post in address_pos:
+    for pos in address_pos:
         if not row[pos]:
             is_blank_row = True
             break
@@ -14,6 +14,7 @@ def check_blank_row(row, cnt, status_pos, writer, address_pos):
         print(f"Incomplete Address, Please check again {cnt + 1} th row in the origin CSV data...\n\n\n")
         row.insert(status_pos, 'ERROR')
         writer.writerow(row)
+        time.sleep(1)
 
     return is_blank_row
 
