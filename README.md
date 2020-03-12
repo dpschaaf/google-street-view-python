@@ -1,6 +1,5 @@
 # Google Map Street View Postcards
 
-If you have any questions running the application, please [contact me](mailto:developstuff93@gmail.com)
 
 ## Requirements
 
