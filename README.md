@@ -38,7 +38,7 @@ Default location of testing input and output csv files are as follows.
 
 Able to change [assets/default_image.png](assets/default_image.png).
 
-If there is any questions, please contact at developstuff93@gmail.com.
+Currently using same google account as github, please directly contact me for the fast answer.
 
 ## Run
 
