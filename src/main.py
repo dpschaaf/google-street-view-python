@@ -5,8 +5,8 @@ from constants import SRC_FILE_URL, DES_FILE_URL
 from spreadsheet_processor import append_headings, get_street_head_positions, check_blank_row, get_full_address_from_heading_pos
 
 
-src_file = open(SRC_FILE_URL)
-des_file = open(DES_FILE_URL, 'w')
+src_file = open(SRC_FILE_URL, newline='')
+des_file = open(DES_FILE_URL, 'w', newline='')
 
 csv_reader_object = csv.reader(src_file)
 csv_writer_object = csv.writer(des_file)
