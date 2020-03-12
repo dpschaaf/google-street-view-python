@@ -1,5 +1,7 @@
 # Google Map Street View Postcards
 
+If you have any questions running the application, please [contact me](mailto:developstuff93@gmail.com)
+
 ## Requirements
 
 Python 3
@@ -37,9 +39,6 @@ The default location of testing input and output CSV files are as follows.
 ```
 
 Able to change [assets/default_image.png](assets/default_image.png).
-
-Currently using the same google account as Github.
-If there is an urgent question, please contact me directly for a fast answer.
 
 ## Run
 
