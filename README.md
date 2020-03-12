@@ -26,7 +26,7 @@ STREET_IAMGE_KEY = '*******************'
 ```
 
 
-Default location of testing input and output csv files are as follows.
+The default location of testing input and output CSV files are as follows.
 
 ```
 "assets/csv/src.csv"
@@ -38,7 +38,8 @@ Default location of testing input and output csv files are as follows.
 
 Able to change [assets/default_image.png](assets/default_image.png).
 
-Currently using same google account as github, please directly contact me for the fast answer.
+Currently using the same google account as Github.
+If there is an urgent question, please contact me directly for a fast answer.
 
 ## Run
 
