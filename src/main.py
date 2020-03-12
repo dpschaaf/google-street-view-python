@@ -34,7 +34,7 @@ for row in csv_reader_object:
     total_data = row
     cnt += 1
 
-    is_blank = check_blank_row(row, cnt, status_pos, csv_writer_object)
+    is_blank = check_blank_row(row, cnt, status_pos, csv_writer_object, address_pos)
     if is_blank == True:
         continue
 
