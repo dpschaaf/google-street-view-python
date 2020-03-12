@@ -2,16 +2,16 @@ import os
 import time
 from constants import APPEND_HEADERS, ADDRESS_INF_HEADERS
 
-def check_blank_row(row, cnt, status_pos, writer):
+def check_blank_row(row, cnt, status_pos, writer, address_pos):
     # checking blank row
     is_blank_row = False
-    for col in row:
-        if not col:
+    for post in address_pos:
+        if not row[pos]:
             is_blank_row = True
             break
 
     if is_blank_row == True:
-        print(f"Blank Row, Please check again {cnt + 1} th row in the origin CSV data...\n\n\n")
+        print(f"Incomplete Address, Please check again {cnt + 1} th row in the origin CSV data...\n\n\n")
         row.insert(status_pos, 'ERROR')
         writer.writerow(row)
 
