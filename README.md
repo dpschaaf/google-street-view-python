@@ -16,8 +16,6 @@ pip install requests
 
 Please take a look at [src/constants.py](src/constants.py).
 
-If there is any questions, please contact at developstuff93@gmail.com.
-
 Please define your key at src/API_KEY.py, like following
 
 
@@ -39,6 +37,8 @@ Default location of testing input and output csv files are as follows.
 ```
 
 Able to change [assets/default_image.png](assets/default_image.png).
+
+If there is any questions, please contact at developstuff93@gmail.com.
 
 ## Run
 
